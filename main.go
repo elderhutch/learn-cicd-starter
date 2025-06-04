@@ -96,3 +96,8 @@ func main() {
 	log.Printf("Serving on port: %s\n", port)
 	log.Fatal(srv.ListenAndServe())
 }
+
+func unUsed() {
+	// This function is here to prevent the linter from complaining about unused functions.
+	// It can be removed or replaced with actual code as needed.
+}
